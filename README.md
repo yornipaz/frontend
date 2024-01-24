@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Configuration environments
+
+- Create  a new environment for the application (.env file)
+- Add  BASE_URL_BACKEND to the environment
+- Add  SECRET_KEY to the environment
+
+```bash
+# base url for backend services
+BASE_URL_BACKEND=http://localhost:3000
+# security parameters key for validations
+SECRET_KEY=secret_key
+```
+
 ## Getting Started
 
 First, run the development server:
